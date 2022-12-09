@@ -12,7 +12,8 @@ namespace AdventOfCode
             //Decorator.Timed(Day6.Solution).Invoke();
             //Decorator.WrapperExample();
             //Decorator.Timed(Day7.Solution)();
-            Decorator.Timed(Day8.Solution)();
+            //Decorator.Timed(Day8.Solution)();
+            Decorator.Timed(Day9.Solution)();
         }
     }
 }

@@ -84,11 +84,11 @@ namespace AdventOfCode
                     isVisible = map[i, j] > map[i + x, j];
                 }
 
-                int scenictop = 0;
+                int scenicTop = 0;
                 isVisible = true;
                 for (int x = 1; j-x >= 0 && isVisible; x++)
                 {
-                    scenictop++;
+                    scenicTop++;
                     isVisible = map[i, j] > map[i, j-x];
                 }
                 int scenicBottom = 0;
@@ -99,9 +99,9 @@ namespace AdventOfCode
                     isVisible = map[i, j] > map[i, j+x];
                 }
 
-                if (scenictop*scenicBottom*scenicLeft*scenicRight > maxScenic)
+                if (scenicTop*scenicBottom*scenicLeft*scenicRight > maxScenic)
                 {
-                    maxScenic = scenictop*scenicBottom*scenicLeft*scenicRight;
+                    maxScenic = scenicTop*scenicBottom*scenicLeft*scenicRight;
                 }
             }
             Console.WriteLine(maxScenic);
