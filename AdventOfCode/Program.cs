@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace AdventOfCode
+﻿namespace AdventOfCode
 {
-    internal class Program
+    internal static class Program
     {
         public static void Main(string[] args)
         {
@@ -14,7 +11,8 @@ namespace AdventOfCode
             //Decorator.Timed(Day7.Solution)();
             //Decorator.Timed(Day8.Solution)();
             //Decorator.Timed(Day9.Solution)();
-            Decorator.Timed(Day10.Solution)();
+            //Decorator.Timed(Day10.Solution)();
+            Decorator.Timed(Day11.Solution)();
         }
     }
 }
