@@ -13,7 +13,8 @@
             //Decorator.Timed(Day9.Solution)();
             //Decorator.Timed(Day10.Solution)();
             //Decorator.Timed(Day11.Solution)();
-            Decorator.Timed(Day12.Solution)();
+            //Decorator.Timed(Day12.Solution)();
+            Decorator.Timed(Day14.Solution)();
         }
     }
 }
